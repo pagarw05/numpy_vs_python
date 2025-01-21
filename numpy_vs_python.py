@@ -128,12 +128,19 @@ st.markdown(
 )
 
 # Footnote
+# st.markdown(
+#     """
+#     ---
+#     <div style='text-align: center; font-size: 0.9em;'>
+#     Created by **Dr. Puneet Agarwal** for the course **IME 212: Introduction to Enterprise Analytics**.
+#     </div>
+#     """,
+#     unsafe_allow_html = True,
+# )
+
 st.markdown(
     """
     ---
-    <div style='text-align: center; font-size: 0.9em;'>
-    Created by **Dr. Puneet Agarwal** for the course **IME 212: Introduction to Enterprise Analytics**.
-    </div>
-    """,
-    unsafe_allow_html = True,
-)
+    Created by **Dr. Puneet Agarwal**  
+    For the course: **IME 212 Introduction to Enterprise Analytics**
+    """)
