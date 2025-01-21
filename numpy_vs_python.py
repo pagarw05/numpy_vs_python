@@ -126,3 +126,14 @@ st.markdown(
     - Minimum speedup observed: **{min(speedup):.2f}x**.
     """
 )
+
+# Footnote
+st.markdown(
+    """
+    ---
+    <div style='text-align: center; font-size: 0.9em;'>
+    Created by **Dr. Puneet Agarwal** for the course **IME 212: Introduction to Enterprise Analytics**.
+    </div>
+    """,
+    unsafe_allow_html = True,
+)
